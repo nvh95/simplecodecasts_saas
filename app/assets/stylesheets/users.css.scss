@@ -28,11 +28,17 @@
 .user-show-avatar {
   height: 128px;
   width: 128px;
+  object-fit: cover; 
+  object-position: center; /* Center the image within the element */
   
 }
 
 /* User index page */
 .user-index-avatar {
+  height: 100px;
+  width: 100px;
+  object-fit: cover; 
+  object-position: center; /* Center the image within the element */
   border-radius: 50%;
 }
 
